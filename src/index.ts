@@ -51,7 +51,7 @@ app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(specs));
  * @swagger
  * /login:
  *   post:
- *     description:  Only few users can login 1st admin and 2nd super-admin
+ *     description:  For super-admin email: sahid@gmail.com, password: sahid for admin email:normal@gmail.com, password: normal
  *     requestBody:
  *       required: true
  *       content:
